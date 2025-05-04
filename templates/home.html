@@ -1,9 +1,145 @@
-<! DOCTYPE html>
-<html>
-    <head>
-        <title>Home</title>
-    </head>
-    <body>    
-        <h1>Welcome to the Home Page</h1>
-        <p>This is the home page of SMI ICT website</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="static/index.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+    AOS.init();
+    </script>
+
+    <div id="main-container">
+        <div id="nav-bar">
+            <div id="main-nav">
+                <div id="logo-container">
+                    <img src="static/images/smi logo.png" alt="smi-logo">
+                </div>
+                <div id="main-menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Tech Updates</a></li>
+                    </ul>
+                </div>
+                <div id="cta-container">
+                    <a href="#">Our Courses</a>
+                </div>
+            </div>
+        </div>
+        <div id="hero-section">
+            <div id="hero-content">
+                <div id="main-text" data-aos="fade-up" data-aos-duration="1500">
+                    <h1>Awards Winning Tech Institution</h1>
+                </div>
+                <div id="main-text-desc" data-aos="fade-up" data-aos-duration="1500">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod. consectetur adipiscing elit</p>
+                </div>
+                <div id="hero-buttons">
+                    <a href="#" id="main-btn">Get Started</a>
+                    <a href="#" id="outline-btn">Learn More</a>
+                </div>
+            </div>
+        </div>
+        <div id="about-section">
+            <div id="about-details">
+                <div id="about-text">
+                    <h1 data-aos="slide-right" data-aos-duration="1200">About Us</h1>
+                    <p data-aos="slide-right" data-aos-duration="1500">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                        sed do eiusmod tempor incididunt ut labore et dolore 
+                        magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                        exercitation ullamco laboris nisi ut aliquip ex ea 
+                        commodo consequat. Duis aute irure dolor in 
+                        reprehenderit in voluptate velit esse cillum dolore eu 
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat 
+                        non proident, sunt in culpa qui officia deserunt mollit anim 
+                        id est laborum.</p>
+                </div>
+                <div id="about-button" data-aos="slide-right" data-aos-duration="1500">
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div id="about-sec-image">
+                <img src="static/images/about-image.png" alt="About-us-featured-image" data-aos="slide-left" data-aos-duration="1500">
+            </div>
+        </div>
+        <div id="innovate">
+            <div id="innovate-content" data-aos="fade-up"  data-aos-duration="1500">
+                <h1>Learn, Innovate & Code</h1>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+                    laboris nisi ut aliquip ex ea commodo consequat. </p>
+                <a href="#">Get Started</a>
+            </div>
+        </div>
+        <div id="mv-statements">
+            <div class="mv-card" data-aos="fade-up" data-aos-duration="1500">
+                <div id="icon">
+                    <img src="static/images/icons/mission.png" alt="mission" class="text-icon">
+                </div>
+                <div id="text">
+                    <h3>Mission</h3>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div class="mv-card" data-aos="fade-up" data-aos-duration="1500">
+                <div id="icon">
+                    <img src="static/images/icons/vision.png" alt="vision" class="text-icon">
+                </div>
+                <div id="text">
+                    <h3>Vision</h3>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+            <div class="mv-card" data-aos="fade-up" data-aos-duration="1500">
+                <div id="icon">
+                    <img src="static/images/icons/core-value.png" alt="" class="text-icon">
+                </div>
+                <div id="text">
+                    <h3>Core Value</h3>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="footer">
+                <div id="links-section" data-aos="fade-up" data-aos-duration="1500">
+                    <div id="links-header">
+                        <h3>Quick Links</h3>
+                    </div>
+                    <div id="links">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Courses</a></li>
+                            <li><a href="#">Tech Updates</a></li>
+                            <li><a href="#">Donate</a></li>
+                        </ul>
+                    </div>
+                    <div id="company-logo" data-aos="fade-up" data-aos-duration="1500">
+                        <a href="#nav-bar"><img src="/static/images/smi logo.png" alt="SMIICT Logo"></a>
+                    </div>
+                </div>
+                <div id="subscription" data-aos="fade-up" data-aos-duration="1500">
+                    <div>
+                        <h1>Subscribe to our Newsletters</h1>
+                    </div>
+                    <div id="form-section">
+                        <form action="">
+                            <input type="email" placeholder="Email Address">
+                            <a href="#">Subscribe</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <div id="main-footer">
+            <p>SMIICT Institute &copy; 2025</p>
+        </div>
+    </div>
+</body>
 </html>
